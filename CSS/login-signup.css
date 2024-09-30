@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.login-signup-hero {
+    background-image: url('../img/image_1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 600px;
+}
+
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-text p {
+        font-size: 0.9rem;
+    }
+}
+
+.main-content {
+    padding: 40px 20px;
+}
+
+.login-form, .signup-form
+{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #3F51B5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #3F51B5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2d3b8b;
+}
+
+.forgot-password, .switch-auth {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.forgot-password a, .switch-auth a {
+    color: #3F51B5;
+    text-decoration: none;
+}
+
+.forgot-password a:hover, .switch-auth a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    input, select, button {
+        font-size: 1rem;
+    }
+}
